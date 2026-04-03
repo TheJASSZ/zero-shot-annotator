@@ -16,7 +16,7 @@ data needed — just provide a taxonomy.
 ```bash
 pip install fiftyone twelvelabs
 export TWELVELABS_API_KEY="your-key"
-fiftyone plugins download https://github.com/<YOU>/zero-shot-annotator
+fiftyone plugins download https://github.com/TheJASSZ/zero-shot-annotator
 ```
 
 ## Quick Start
