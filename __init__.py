@@ -24,8 +24,11 @@ MARENGO_MODEL = "marengo3.0"
 PEGASUS_MODEL = "pegasus1.2"
 PEGASUS_OPTIONS = ["visual", "audio"]
 DEFAULT_PROMPT = (
-    "Describe in one detailed sentence what is happening in this video, "
-    "focusing on any notable human actions or safety-relevant behavior."
+    "Classify the primary action in this video. Is a worker: walking safely, "
+    "violating walkway rules, operating a forklift safely, overloading a forklift, "
+    "using equipment properly, intervening near machinery without authorization, "
+    "wearing proper safety gear, or missing safety equipment? "
+    "Describe which one and why in one sentence."
 )
 DEFAULT_CONFIDENCE_THRESHOLD = 0.5
 
