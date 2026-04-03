@@ -2,6 +2,10 @@
 
 A [FiftyOne](https://docs.voxel51.com/) plugin that automatically labels video clips using [Twelve Labs](https://twelvelabs.io/) **Pegasus** (video-to-text) and **Marengo** (text embedding matching). No training data needed — just provide a taxonomy and get instant labels.
 
+## Demo
+
+![Zero Shot Demo](Zero%20Shot%20Demo.gif)
+
 ## The Problem
 
 Labeling video is expensive and slow. A single annotator reviewing workplace safety footage can take days to label hundreds of clips. In scarce-data domains — manufacturing safety, medical procedures, wildlife monitoring — you often can't afford to label enough data to train a classifier.
