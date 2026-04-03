@@ -1,0 +1,12 @@
+name: zero-shot-annotator
+version: 0.1.0
+description: >
+  Zero-shot video annotation using Twelve Labs Pegasus and Marengo.
+  Describe videos in natural language, then match descriptions to
+  user-defined taxonomy labels via embedding similarity. No training needed.
+fiftyone:
+  version: ">=0.25"
+operators:
+  - describe_videos
+  - annotate_zero_shot
+  - review_low_confidence
